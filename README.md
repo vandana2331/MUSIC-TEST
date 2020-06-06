@@ -41,5 +41,12 @@ npm i
 ## Work on the solution
 The solution is to play the tune when clicking on the "Start Playing" button. There's a file called "index.ts" with a TODO block. Start your solution there. You are, of course, free to add other functions and other files. But do not change the data for any of the other existing typescript files.
 
+The following command will watch your typescript files and automatically compile them to javascript
+```bash
+npm run watch
+```
+
+Simply open the "index.html" file in a browser of your choice (although Chrome is undoubtedly better for debugging), and click the "Start playing" button to test out whether your solution works.
+
 ## Submit the solution for review
 Push your code upstream (you can find more details in the version control basics that have been linked above), and either make a pull request, or invite us to collaborate on your forked project.
