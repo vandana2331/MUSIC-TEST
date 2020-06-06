@@ -20,14 +20,14 @@ There is an array of objects in one of the code files - each object has a pitch,
 
 ## What will you be using in this project
 
-* Git and Github (for version control and code collaboration/review). [Learn the basics here][https://www.atlassian.com/git/tutorials/what-is-version-control]
-* Setting up a node project, and running the most basic npm commands
-* How to work with typescript (you can write your code in javascript, but will need to understand the typescript code that has already been written for the project). [Refer the typescript docs][https://www.typescriptlang.org/docs/home.html]
+* Git and Github (for version control and code collaboration/review). [Learn the basics here](https://www.atlassian.com/git/tutorials/what-is-version-control)
+* Setting up a node project, and running the most basic npm commands.
+* How to work with typescript (you can write your code in javascript, but will need to understand the typescript code that has already been written for the project). [Refer the typescript docs](https://www.typescriptlang.org/docs/home.html).
 
 ## Setup
-Before you start this project, you need to have [NodeJS][https://nodejs.org/en/download/] installed on your system.
+Before you start this project, you need to have [NodeJS](https://nodejs.org/en/download/) installed on your system.
 
-Fork this project to your own Github account ([What is forking?][https://guides.github.com/activities/forking/]) and clone it locally.
+Fork this project to your own Github account ([What is forking?](https://guides.github.com/activities/forking/)) and clone it locally.
 
 Go to the folder and install the project
 
