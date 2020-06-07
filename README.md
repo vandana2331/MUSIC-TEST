@@ -1,10 +1,10 @@
 # Webtrigon interview round 2 - Music test
 
-This is the interview round to test the following attributes of the interviewee:
+This is an interview round to test the following attributes of the interviewee:
 
 * **Problem domain analysis** The focus of this coding round depends not on the solution domain (knowledge of programming languages, frameworks, architectural decisions to make for the project, etc.) but rather the problem domain (the actual problem that we are trying to solve for the customer). In this case, the problem domain is representational music
 
-* **Self sufficiency** In face of tasks that the interviewee has not encountered before, how well can they handle the task _without_ any human intervention? (Note that this round is set up such that there are a lot of things that the interviewee may not be aware of, but all of them are surface-level problems, with links to reading material that will help solve their problem)
+* **Self sufficiency** In face of tasks that the interviewee has not encountered before, how well can they handle the task _without_ any human intervention? (Note that this round is set up such that there may be things that the interviewee is not aware of, but all of them are surface-level problems, with links to reading material that will help solve their problem)
 
 ## The project description in 20 words or less
 Take a list of musical notes and play it's tune in the browser, following it's pitch and rhythm.
@@ -18,7 +18,7 @@ There is an array of objects in one of the code files - each object has a pitch,
 * HTML5
 * Basics of Javascript (Event handling, DOM access, callback functions)
 
-## What will you be using in this project
+## What will you be using and encountering in this project
 
 * Git and Github (for version control and code collaboration/review). [Learn the basics here](https://www.atlassian.com/git/tutorials/what-is-version-control)
 * Setting up a node project, and running the most basic npm commands.
@@ -29,12 +29,12 @@ Before you start this project, you need to have [NodeJS](https://nodejs.org/en/d
 
 Fork this project to your own Github account ([What is forking?](https://guides.github.com/activities/forking/)) and clone it locally.
 
-Go to the folder and install the project
+Go to your cloned folder and install the project dependencies
 
 ### npm
 
 ```bash
-# install the node project (this can only be done after installing NodeJS)
+# install the node project along with dependencies (this can only be done after installing NodeJS)
 npm i
 ```
 
