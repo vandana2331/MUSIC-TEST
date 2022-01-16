@@ -17,6 +17,7 @@ console.log(notesToPlayInOrder)
     notesToPlayInOrder.map((data,key)=>{
         if(data){
             let id;
+            
             if(data.accidental){
                               id=  data.pitch+data.octave+data.accidental
                             }else{
@@ -31,24 +32,25 @@ console.log(notesToPlayInOrder)
       console.log("start"); 
       audioPointer = 0; 
       if (audioPointer <audioArray.length) { 
-        audio = new Audio(audioArray[audioPointer]); 
-        console.log(audio)
+        audio = new Audio(audioArray[audioPointer]);
         let timeleft=idList[audioPointer]
         console.log(timeleft)
       setInterval(function(){
-                        timeleft--;
-                        // console.log(timeleft);
+                        
+                        console.log(timeleft);
                         // console.log("audioPointer before increment",audioPointer)
-                        if(timeleft === 0){
+                        if(timeleft < 0){
                             audioPointer += 1; 
                             audio.src= audioArray[audioPointer]
+                            console.log(audioArray[audioPointer],"src8888888888")
                             console.log(audioPointer)
                             timeleft=idList[audioPointer]
-                            console.log("timeleft",timeleft)
+                            console.log("timele&&&&&&&&&&&&&&&&&&&&&&ft",timeleft)
                         }
                         else{
                             audio.play();
                         }
+                        timeleft--;
                         },1000);
          
         console.log(`playing ${audioArray[audioPointer]}`);
